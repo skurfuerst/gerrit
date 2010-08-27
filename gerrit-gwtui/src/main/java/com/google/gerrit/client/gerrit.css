@@ -33,6 +33,34 @@
 @external .wdd;
 @external .wdc;
 
+/* Custom Styles */
+@external .gerritTopMenu;
+@external .gerritButton;
+@external .gerritBody;
+@external .blockHeader;
+@external .menuScreenMenuBar;
+@external .menuItem;
+@external .commentPanelBorder;
+@external .commentPanelHeader;
+@external .commentPanelSummary;
+@external .commentPanelAuthorCell;
+@external .commentPanelSummaryCell;
+@external .commentPanelDateCell;
+@external .commentPanelContent;
+@external .commentPanelMessage;
+@external .commentPanelButtons;
+@external .commentEditorPanel;
+@external .linkMenuBar;
+@external .menuItem;
+@external .topmenu;
+@external .topmenuMenuLeft;
+@external .searchPanel;
+@external .screen;
+@external .screenHeader;
+@external .changeTable;
+@external .accountDashboard;
+/* Custom Styles end */
+
 @def black #000000;
 @def white #ffffff;
 @def norm-font  Arial Unicode MS, Arial, sans-serif;
@@ -462,7 +490,7 @@
   background: backgroundColor;
 }
 
-.changeTable .activeRow, 
+.changeTable .activeRow,
 .accountDashboard.changeTable .activeRow,
 .accountDashboard.changeTable .activeRow a {
   background: selectionColor;
